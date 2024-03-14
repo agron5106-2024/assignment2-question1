@@ -1,14 +1,16 @@
-##### Commit 5
+##### Commit Final
 
-**Question 1e:** What are the differences between this and the previous commit? Does it matter? Why or Why not?
+**Final output:** Use this as a starting point for Question 2.
+
+This function takes one argument with two non-zero numeric numbers ("x" and "y").
 
 ```R
 demo <- function(n) {
     result <- list()
-    result$sum <- n[["y"]] + n[["x"]]
-    result$ratio <- n[["x"]] + n[["y"]]
+    result$sum <- n[["x"]] + n[["y"]]
     result$difference <- n[["x"]] - n[["y"]]
     result$product <- n[["x"]] * n[["y"]]
+    result$ratio <- n[["x"]] / n[["y"]]
     return(result)
 }
 ```
@@ -17,9 +19,8 @@ demo <- function(n) {
 def demo(n):
     answer = {}
     answer["sum"] = n["x"] + n["y"]
-    answer["ratio"] = n["x"] + n["y"]
     answer["difference"] = n["x"] - n["y"]
     answer["product"] = n["x"] * n["y"]
+    answer["ratio"] = n["x"] / n["y"]
     return answer
 ```
-
