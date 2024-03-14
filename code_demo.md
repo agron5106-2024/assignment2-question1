@@ -1,17 +1,21 @@
-##### Commit 1
+##### Commit 2
 
-**Question 1a:** What are the data types of the input and output parameters for this function?
+**Question 1b:** What does this commit do?
 
 ```R
 demo <- function(n) {
-    result <- list(n[["x"]] + n[["y"]])
+    result <- list(
+        sum = n[["x"]] + n[["y"]]
+    )
     return(result)
 }
 ```
 
 ```Python
 def demo(n):
-    answer = {n["x"] + n["y"]}
+    answer = {
+        "sum": n["x"] + n["y"]
+    }
     return answer
 ```
 
