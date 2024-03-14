@@ -1,14 +1,17 @@
-##### Commit 0
+##### Commit 1
 
-Initial commit and there is no question for this commit.
-
-The following syntax will be used to display both R and Python code.
+**Question 1a:** What are the data types of the input and output parameters for this function?
 
 ```R
-# This is R codes
+demo <- function(n) {
+    result <- list(n[["x"]] + n[["y"]])
+    return(result)
+}
 ```
 
 ```Python
-# This is Python codes
+def demo(n):
+    answer = {n["x"] + n["y"]}
+    return answer
 ```
 
